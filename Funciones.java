@@ -58,3 +58,34 @@ public class Funcion2 {
 
 		}
 }
+
+public class Funcion3 {
+
+	public static int funcion3(int numero1, int numero2, int numero3, int numero4, int numero5 ){
+		
+		int resultado = 0;
+		if(numero1<=18){
+			if(numero1>=9) {
+			resultado = numero1;
+			}
+		}if(numero2<=18) {
+			if(numero2>=9) {
+				resultado=resultado+numero2;
+			}
+		}if(numero3<=18) {
+			if(numero3>=9) {
+				resultado=resultado+numero3;
+			}
+		}if(numero4<=18) {
+			if(numero4>=9) {
+				resultado=resultado+numero4;
+			}
+		}if(numero5<=18) {
+			if(numero5>=9) {
+				resultado=resultado+numero5;
+			}
+		}
+		return resultado;
+	
+	}
+}
