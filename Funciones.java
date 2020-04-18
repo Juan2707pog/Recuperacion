@@ -114,3 +114,20 @@ public class Funcion4 {
 	
 	}
 }
+public class Funcion5 {
+	public static void main(String[] args) {
+		System.out.println(funcion5(10, 20,"*" ));
+	}
+	public static int funcion5(int numero1, int numero2, String formula) {
+		int resultado = 0;
+		if(formula=="+") {
+			resultado=numero1+numero2;
+		}else if(formula=="-"){
+			resultado=numero1-numero2;
+		}else if(formula=="*") {
+			resultado=numero1*numero2;
+		}
+		return resultado;
+		
+	}
+}
