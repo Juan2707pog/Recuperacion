@@ -89,3 +89,28 @@ public class Funcion3 {
 	
 	}
 }
+public class Funcion4 {
+	public static void main(String[] args) {
+		System.out.println(funcion4(10, 7, 5, 4, 8, 10));
+	}
+	public static int funcion4(int numero1, int numero2, int numero3, int numero4, int numero5, int numero6 ){
+		
+		int resultado = 0;
+		resultado= numero1+numero2+numero3+numero4+numero5+numero6;
+		resultado= resultado/6;
+		if(resultado<5) {
+			System.out.println("Nota media insuficiente");
+		}if(resultado>5 && resultado<6) {
+			System.out.println("Nota media suficiente");
+		}if(resultado>=6 && resultado<7) {
+			System.out.println("Nota media bien");
+		}if(resultado>=7 && resultado<9){
+			System.out.println("Nota media notable");
+		}if(resultado>=9 && resultado<=10) {
+			System.out.println("Nota media sobresaliente");
+		}
+
+		return resultado;
+	
+	}
+}
